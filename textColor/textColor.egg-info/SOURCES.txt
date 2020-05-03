@@ -1,8 +1,0 @@
-README.md
-setup.py
-textColor/TextColor.py
-textColor/__init__.py
-textColor.egg-info/PKG-INFO
-textColor.egg-info/SOURCES.txt
-textColor.egg-info/dependency_links.txt
-textColor.egg-info/top_level.txt
