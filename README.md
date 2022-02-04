@@ -14,6 +14,7 @@ PiPy: https://pypi.org/project/textColor/
 # Installation
 
 This library is hosted on [pypi.org](https://pypi.org/project/textColor/). You can install it with **pip**:
+
 `pip install textColor`
 
 
