@@ -1,23 +1,26 @@
 Metadata-Version: 2.1
 Name: textColor
-Version: 0.0.1
+Version: 0.1.0
 Summary: The purpose of this Library is to add easy acces to colored output in the Terminal with Python3
-Home-page: https://github.com/R2-D2-JR/textColor
+Home-page: https://github.com/jramrath/textColor
 Author: Jannik Ramrath
-Author-email: jannik.ramrath@gmail.com
+Author-email: textcolor@ramrath.anonaddy.me
 License: UNKNOWN
-Description: # colorText
-        
-        This is a easy to use Python Library which allows you to make your Terminal outputs more colorful and therefore easyer to understand.
-        
-        It currently only works with Python3
-        
-        The creator is Jannik Ramrath (R2-D2-JR)
-        
-        GitHub: https://github.com/R2-D2-JR/textColor
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# colorText
+
+This is a easy to use Python Library which allows you to make your Terminal outputs more colorful and therefore easyer to understand.
+
+It currently only works with Python3
+
+The creator is Jannik Ramrath (R2-D2-JR)
+
+GitHub: https://github.com/R2-D2-JR/textColor
+
