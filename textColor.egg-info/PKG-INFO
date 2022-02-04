@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: textColor
-Version: 1.0.1
+Version: 2.0.0
 Summary: This is an easy to use Python library which allows you to make your terminal outputs more colorful and therefore easier to read and understand
 Home-page: https://github.com/jramrath/textColor
 Author: Jannik Ramrath
@@ -14,7 +14,7 @@ Requires-Python: >=3.6
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
-# colorText
+# textColor
 
 This is an easy to use Python library which allows you to make your terminal outputs more colorful and therefore easier to read and understand.
 
@@ -30,6 +30,7 @@ PiPy: https://pypi.org/project/textColor/
 # Installation
 
 This library is hosted on [pypi.org](https://pypi.org/project/textColor/). You can install it with **pip**:
+
 `pip install textColor`
 
 

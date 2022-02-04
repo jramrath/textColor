@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="textColor",
-    version="1.0.1",
+    version="2.0.0",
     author="Jannik Ramrath",
     author_email="textcolor@ramrath.anonaddy.me",
     description="This is an easy to use Python library which allows you to make your terminal outputs more colorful and therefore easier to read and understand",

@@ -1,4 +1,4 @@
-# colorText
+# textColor
 
 This is an easy to use Python library which allows you to make your terminal outputs more colorful and therefore easier to read and understand.
 
