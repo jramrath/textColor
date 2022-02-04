@@ -1,7 +1,10 @@
+LICENSE
 README.md
 setup.py
-textColor/TextColor.py
+test/__init__.py
+test/test_textColor.py
 textColor/__init__.py
+textColor/tc.py
 textColor.egg-info/PKG-INFO
 textColor.egg-info/SOURCES.txt
 textColor.egg-info/dependency_links.txt
