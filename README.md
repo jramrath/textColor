@@ -1,5 +1,3 @@
-# textColor
-
 This is an easy to use Python library which allows you to make your terminal outputs more colorful and therefore easier to read and understand.
 
 It currently only works with Python3
@@ -8,7 +6,7 @@ The creator and maintainer is Jannik Ramrath (jramrath)
 
 GitHub: https://github.com/jramrath/textColor
 
-PiPy: https://pypi.org/project/textColor/
+PyPi: https://pypi.org/project/textColor/
 
 
 # Installation
