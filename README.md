@@ -9,6 +9,11 @@ GitHub: https://github.com/jramrath/textColor
 PyPi: https://pypi.org/project/textColor/
 
 
+# Contributing
+
+If you've found a bug or a typo, feel free to open an Issue on GitHub. Already have a solution? Make a Pull request and I'll take a look at your changes. Please make sure a similar Issue/Pull request doesn't already exist.
+
+
 # Installation
 
 This library is hosted on [pypi.org](https://pypi.org/project/textColor/). You can install it with **pip**:
@@ -44,8 +49,3 @@ print(tc.output("Success"))        # will output '[>] Success' while '[>]' is gr
 # License
 
 This library was published under the **GNU General Public License**. For more information take a look at the **LICENSE** file.
-
-
-# Contributing
-
-If you've found a bug or a typo, feel free to open an Issue on GitHub. Already have a solution? Make a Pull request and I'll take a look at your changes.
