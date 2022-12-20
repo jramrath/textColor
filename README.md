@@ -28,9 +28,9 @@ from textColor import tc
 To print colored text do the following:
 ```
 print(tc.green("GREEN"))           # 'GREEN' will be green
-print(tc.green("RED"))             # 'RED' will be red
-print(tc.green("BLUE"))            # 'BLUE' will be blue
-print(tc.green("YELLOW"))          # 'YELLOW' will be yellow
+print(tc.red("RED"))               # 'RED' will be red
+print(tc.blue("BLUE"))             # 'BLUE' will be blue
+print(tc.yellow("YELLOW"))         # 'YELLOW' will be yellow
 ```
 
 You can also use special 'pre-fixes':

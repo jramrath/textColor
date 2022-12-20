@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: textColor
-Version: 2.0.0
+Version: 2.0.2
 Summary: This is an easy to use Python library which allows you to make your terminal outputs more colorful and therefore easier to read and understand
 Home-page: https://github.com/jramrath/textColor
 Author: Jannik Ramrath
@@ -44,9 +44,9 @@ from textColor import tc
 To print colored text do the following:
 ```
 print(tc.green("GREEN"))           # 'GREEN' will be green
-print(tc.green("RED"))             # 'RED' will be red
-print(tc.green("BLUE"))            # 'BLUE' will be blue
-print(tc.green("YELLOW"))          # 'YELLOW' will be yellow
+print(tc.red("RED"))               # 'RED' will be red
+print(tc.blue("BLUE"))             # 'BLUE' will be blue
+print(tc.yellow("YELLOW"))         # 'YELLOW' will be yellow
 ```
 
 You can also use special 'pre-fixes':
@@ -67,4 +67,3 @@ This library was published under the **GNU General Public License**. For more in
 # Contributing
 
 If you've found a bug or a typo, feel free to open an Issue on GitHub. Already have a solution? Make a Pull request and I'll take a look at your changes.
-
