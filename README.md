@@ -1,5 +1,3 @@
-# textColor
-
 This is an easy to use Python library which allows you to make your terminal outputs more colorful and therefore easier to read and understand.
 
 It currently only works with Python3
@@ -8,7 +6,12 @@ The creator and maintainer is Jannik Ramrath (jramrath)
 
 GitHub: https://github.com/jramrath/textColor
 
-PiPy: https://pypi.org/project/textColor/
+PyPi: https://pypi.org/project/textColor/
+
+
+# Contributing
+
+If you've found a bug or a typo, feel free to open an Issue on GitHub. Already have a solution? Make a Pull request and I'll take a look at your changes. Please make sure a similar Issue/Pull request doesn't already exist.
 
 
 # Installation
@@ -48,6 +51,28 @@ print(tc.output("Success"))        # will output '[>] Success' while '[>]' is gr
 This library was published under the **GNU General Public License**. For more information take a look at the **LICENSE** file.
 
 
-# Contributing
+# Uploading to PyPi
 
-If you've found a bug or a typo, feel free to open an Issue on GitHub. Already have a solution? Make a Pull request and I'll take a look at your changes.
+More info [here](https://packaging.python.org/en/latest/tutorials/packaging-projects/).
+
+Remove all old distribution files in 'dist/'
+
+Make sure you have the latest version of 'build':
+
+> python3 -m pip install --upgrade build
+
+In the same directory as 'pyproject.toml':
+
+> python3 -m build
+
+Now that the distribution files have been generated, make sure twine is up to date:
+
+> python3 -m pip install --upgrade twine
+
+Again, in the same directory as 'pyproject.toml':
+
+> python3 -m twine upload dist/*
+>
+> username: \_\_token__
+>
+> password: \<API token from pypi>
