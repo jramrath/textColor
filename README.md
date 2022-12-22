@@ -72,5 +72,7 @@ Now that the distribution files have been generated, make sure twine is up to da
 Again, in the same directory as 'pyproject.toml':
 
 > python3 -m twine upload dist/*
-
-
+>
+> username: \_\_token__
+>
+> password: \<API token from pypi>
