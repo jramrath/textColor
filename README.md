@@ -25,23 +25,23 @@ This library is hosted on [pypi.org](https://pypi.org/project/textColor/). You c
 
 To use this library, you first have to import it:
 ```
-from textColor import tc
+import textColor
 ```
 
 To print colored text do the following:
 ```
-print(tc.green("GREEN"))           # 'GREEN' will be green
-print(tc.red("RED"))               # 'RED' will be red
-print(tc.blue("BLUE"))             # 'BLUE' will be blue
-print(tc.yellow("YELLOW"))         # 'YELLOW' will be yellow
+print(textColor.green("GREEN"))           # 'GREEN' will be green
+print(textColor.red("RED"))               # 'RED' will be red
+print(textColor.blue("BLUE"))             # 'BLUE' will be blue
+print(textColor.yellow("YELLOW"))         # 'YELLOW' will be yellow
 ```
 
 You can also use special 'pre-fixes':
 ```
-print(tc.input("Name: "))          # will output '[?] Name: '  while '[?]' is yellow
-print(tc.info("Info"))             # will output '[-] Info'    while '[-]' is blue
-print(tc.error("ERROR"))           # will output '[!] ERROR'   while '[!]' is red
-print(tc.output("Success"))        # will output '[>] Success' while '[>]' is green
+print(textColor.input("Name: "))          # will output '[?] Name: '  while '[?]' is yellow
+print(textColor.info("Info"))             # will output '[-] Info'    while '[-]' is blue
+print(textColor.error("ERROR"))           # will output '[!] ERROR'   while '[!]' is red
+print(textColor.output("Success"))        # will output '[>] Success' while '[>]' is green
 ```
 
 
