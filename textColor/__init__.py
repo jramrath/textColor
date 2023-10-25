@@ -86,8 +86,8 @@ def out(*args, **kwargs):
 ###
 
 
-def pInput(text):
-    print(input(text))
+def pPrompt(text):
+    print(prompt(text))
 
 
 def pInfo(text):
