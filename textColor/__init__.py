@@ -81,3 +81,22 @@ def err(*args, **kwargs):
 
 def out(*args, **kwargs):
     return output(*args, **kwargs)
+
+
+###
+
+
+def pInput(text):
+    print(input(text))
+
+
+def pInfo(text):
+    print(info(text))
+
+
+def pError(text):
+    print(error(text))
+
+
+def pOutput(text):
+    print(output(text))
