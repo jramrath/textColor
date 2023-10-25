@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "textColor"
-version = "3.0.1"
+version = "3.1.0"
 authors = [
   { name="Jannik Ramrath", email="jannik@ramrath.me" },
 ]
