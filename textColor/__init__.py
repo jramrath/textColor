@@ -23,7 +23,7 @@ def yellow(text, whiteText="", space=True):
         return "\033[1;33;49m" + str(text) + "\033[0;37;49m" + str(whiteText)
 
 
-def input(text):
+def prompt(text):
     return "\033[1;33;49m" + "[?]" + " \033[0;37;49m" + str(text)
 
 def info(text):
