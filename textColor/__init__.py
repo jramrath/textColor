@@ -34,3 +34,22 @@ def error(text):
 
 def output(text):
     return "\033[1;32;49m" + "[>]" + " \033[0;37;49m" + str(text)
+
+
+##
+
+
+def pInput(text):
+    print(input(text))
+
+
+def pInfo(text):
+    print(info(text))
+
+
+def pError(text):
+    print(error(text))
+
+
+def pOutput(text):
+    print(output(text))
