@@ -56,3 +56,11 @@ def error(text):
 
 def output(text):
     return "\033[1;32;49m" + "[>]" + " \033[0;37;49m" + str(text)
+
+
+def err(*args, **kwargs):
+    return error(*args, **kwargs)
+
+
+def out(*args, **kwargs):
+    return output(*args, **kwargs)
