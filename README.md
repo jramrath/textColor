@@ -44,6 +44,16 @@ print(textColor.error("ERROR"))           # will output '[!] ERROR'   while '[!]
 print(textColor.output("Success"))        # will output '[>] Success' while '[>]' is green
 ```
 
+If those function names seem too long, you should use abbreviations:
+```
+green  ––> g
+red    ––> r
+blue   ––> b
+yellow ––> y
+
+error  ––> error
+output ––> out
+```
 
 
 # License
