@@ -38,41 +38,37 @@ print(textColor.yellow("YELLOW"))         # 'YELLOW' will be yellow
 
 You can also use special 'pre-fixes':
 ```
-print(textColor.input("Name: "))          # will output '[?] Name: '  while '[?]' is yellow
+print(textColor.prompt("Name: "))         # will output '[?] Name: '  while '[?]' is yellow
 print(textColor.info("Info"))             # will output '[-] Info'    while '[-]' is blue
 print(textColor.error("ERROR"))           # will output '[!] ERROR'   while '[!]' is red
 print(textColor.output("Success"))        # will output '[>] Success' while '[>]' is green
 ```
 
+If you dont' want to type input()/print() you can use the 'print functions':
+```
+textColor.pPromt("Name: ")                # will call input("[?] Name: ") and return
+                                          #  the output, while '[?]’ is yellow
+textColor.pInfo("Info")                   # will output '[-] Info'    while '[-]' is blue
+textColor.pError("Error")                 # will output '[!] ERROR'   while '[!]' is red
+textColor.pOutput("Success")              # will output '[>] Success' while '[>]' is green
+```
+
+
+If those function names seem too long, you should use abbreviations:
+```
+green   ––> g
+red     ––> r
+blue    ––> b
+yellow  ––> y
+
+error   ––> err
+output  ––> out
+
+pError  ––> pErr
+pOutput ––> pOut
+```
 
 
 # License
 
 This library was published under the **GNU General Public License**. For more information take a look at the **LICENSE** file.
-
-
-# Uploading to PyPi
-
-More info [here](https://packaging.python.org/en/latest/tutorials/packaging-projects/).
-
-Remove all old distribution files in 'dist/'
-
-Make sure you have the latest version of 'build':
-
-> python3 -m pip install --upgrade build
-
-In the same directory as 'pyproject.toml':
-
-> python3 -m build
-
-Now that the distribution files have been generated, make sure twine is up to date:
-
-> python3 -m pip install --upgrade twine
-
-Again, in the same directory as 'pyproject.toml':
-
-> python3 -m twine upload dist/*
->
-> username: \_\_token__
->
-> password: \<API token from pypi>
