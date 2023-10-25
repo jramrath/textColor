@@ -67,6 +67,11 @@ def output(text):
     return "\033[1;32;49m" + "[>]" + " \033[0;37;49m" + str(text)
 
 
+# backwards compatibility only:
+def input(text):
+    return prompt(text)
+
+
 ###
 
 
