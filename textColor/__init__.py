@@ -31,6 +31,7 @@ def yellow(text, whiteText="", space=True):
 
 ###
 
+
 def g(*args, **kwargs):
     return green(*args, **kwargs)
 
@@ -50,7 +51,7 @@ def y(*args, **kwargs):
 ###
 
 
-def input(text):
+def prompt(text):
     return "\033[1;33;49m" + "[?]" + " \033[0;37;49m" + str(text)
 
 

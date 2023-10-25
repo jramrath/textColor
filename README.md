@@ -38,7 +38,7 @@ print(textColor.yellow("YELLOW"))         # 'YELLOW' will be yellow
 
 You can also use special 'pre-fixes':
 ```
-print(textColor.input("Name: "))          # will output '[?] Name: '  while '[?]' is yellow
+print(textColor.prompt("Name: "))         # will output '[?] Name: '  while '[?]' is yellow
 print(textColor.info("Info"))             # will output '[-] Info'    while '[-]' is blue
 print(textColor.error("ERROR"))           # will output '[!] ERROR'   while '[!]' is red
 print(textColor.output("Success"))        # will output '[>] Success' while '[>]' is green
