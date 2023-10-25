@@ -100,3 +100,14 @@ def pError(text):
 
 def pOutput(text):
     print(output(text))
+
+
+###
+
+
+def pErr(*args, **kwargs):
+    return pError(*args, **kwargs)
+
+
+def pOut(*args, **kwargs):
+    return pOutput(*args, **kwargs)
