@@ -44,15 +44,28 @@ print(textColor.error("ERROR"))           # will output '[!] ERROR'   while '[!]
 print(textColor.output("Success"))        # will output '[>] Success' while '[>]' is green
 ```
 
+If you dont' want to type input()/print() you can use the 'print functions':
+```
+textColor.pPromt("Name: ")                # will call input("[?] Name: ") and return
+                                          #  the output, while '[?]’ is yellow
+textColor.pInfo("Info")                   # will output '[-] Info'    while '[-]' is blue
+textColor.pError("Error")                 # will output '[!] ERROR'   while '[!]' is red
+textColor.pOutput("Success")              # will output '[>] Success' while '[>]' is green
+```
+
+
 If those function names seem too long, you should use abbreviations:
 ```
-green  ––> g
-red    ––> r
-blue   ––> b
-yellow ––> y
+green   ––> g
+red     ––> r
+blue    ––> b
+yellow  ––> y
 
-error  ––> error
-output ––> out
+error   ––> err
+output  ––> out
+
+pError  ––> pErr
+pOutput ––> pOut
 ```
 
 

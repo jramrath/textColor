@@ -81,3 +81,33 @@ def err(*args, **kwargs):
 
 def out(*args, **kwargs):
     return output(*args, **kwargs)
+
+
+###
+
+
+def pPrompt(text):
+    print(prompt(text))
+
+
+def pInfo(text):
+    print(info(text))
+
+
+def pError(text):
+    print(error(text))
+
+
+def pOutput(text):
+    print(output(text))
+
+
+###
+
+
+def pErr(*args, **kwargs):
+    return pError(*args, **kwargs)
+
+
+def pOut(*args, **kwargs):
+    return pOutput(*args, **kwargs)
